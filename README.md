@@ -12,7 +12,7 @@ Nesse tutorial iremos mostrar como fazer a comunicação entre hardware e Simuli
 
 # Instalação de Toolbox
 
- Para fazermos a comunicção do Simulink com qualquer hardware devemo instalar o toolbox **Instrument Control 
+ Para fazermos a comunicção do Simulink com qualquer hardware devemo instalar o toolbox **Instrument Control** 
  
 <a href="https://imgur.com/8vvmKyQ"> <img src="https://i.imgur.com/8vvmKyQ.png" title="source: imgur.com" /></a>
 
@@ -47,6 +47,44 @@ int main()
  
  # Criando uma interface no Simulink-Matlab
  
+* No **Command Window** do Matalab basata digitar o comando **simulink** para abrir o software 
+ 
+ <a href="https://imgur.com/FHxaozi"><img src="https://i.imgur.com/FHxaozi.png" title="source: imgur.com" /></a>
+ 
+ * Em **Simulink Start Page** vamos crair um **Blank Model** 
+  
+ <a href="https://imgur.com/NCocRDd"><img src="https://i.imgur.com/NCocRDd.png" title="source: imgur.com" /></a>
+ 
+ * Com  um modelo em branco criado vamos agora inserir blocos para criação de interface gráfica
+ 
+ <a href="https://imgur.com/FmQXPz4"><img src="https://i.imgur.com/FmQXPz4.png" title="source: imgur.com" /></a>
+ 
+ # Criando a estrutura para a interface gráfica 
+ 
+ Primerio bloco que iremos incluir em nosso projeto é o **Query Instrument** ele de forma resumida é o responsável por fazer a conexção entre o Simulink e o microcontrolador 
+ 
+* Em  **Library Browser** temos acaesso  a todos os blocos de ferramentas que o Similunk disponibiliza 
+ 
+ <a href="https://imgur.com/UqNxRIB"><img src="https://i.imgur.com/UqNxRIB.png" title="source: imgur.com" /></a>
+ 
+* Clicando sobre o icone **Libray** é aberto a janela **Simulink Library Browser** 
+ 
+ <a href="https://imgur.com/s9JSBqC"><img src="https://i.imgur.com/s9JSBqC.png" title="source: imgur.com" /></a>
+ 
+* Nela vamos buscar pelo bloco **Query Instrument**
+ 
+ <a href="https://imgur.com/EebjXwN"><img src="https://i.imgur.com/EebjXwN.png" title="source: imgur.com" /></a>
+ 
+ * Clicando com o botão direito sobre o bloco selecionamos **add block**
+ 
+ <a href="https://imgur.com/woi8zjh"><img src="https://i.imgur.com/woi8zjh.png" title="source: imgur.com" /></a>
+ 
+ 
+ ## Configurando o bloco Query
+
+Com o query já inserido no projeto, vamos agora dar duplo click sobro o bloco 
 
 
+ 
+ 
 
