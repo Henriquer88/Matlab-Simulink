@@ -84,7 +84,7 @@ int main()
 
 Com o query já inserido no projeto, vamos agora dar duplo click sobro o bloco 
 
-
+<a href="https://imgur.com/V669LgB"><img src="https://i.imgur.com/V669LgB.png?1" title="source: imgur.com" /></a>
  
  
 
