@@ -82,9 +82,23 @@ int main()
  
  ## Configurando o bloco Query
 
-Com o query já inserido no projeto, vamos agora dar duplo click sobre o bloco 
+* Com o query já inserido no projeto, vamos agora fazer as configurações necessárias  
 
 <a href="https://imgur.com/HiIuWom"><img src="https://i.imgur.com/HiIuWom.png" title="source: imgur.com" /></a>
+
+* Clicando sobre o bloco query teremos acesso as configurações 
+* 
+ Nessa tela  podemos configurar tipo de interface, baudrate, buffer etc.
+ 
+<a href="https://imgur.com/bYz8JX0"><img src="https://i.imgur.com/bYz8JX0.png" title="source: imgur.com" /></a>
+
+ * Agora vamos configurar qual o formato dos dados**ASC II format string** e quantos Frames **Frame size** vamos enviar ao Simulink
+
+<a href="https://imgur.com/mFqQ571"><img src="https://i.imgur.com/mFqQ571.png" title="source: imgur.com" /></a>
+
+  Nesse exemplo iremos enviar dados no formato int e apenas um frame
+  
+  
  
  
 
