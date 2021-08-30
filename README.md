@@ -43,7 +43,12 @@ int main()
 }
 
 ```
- Esse programa faz a contagem dos pulsos de um encolder, os dados lidos pelo microcontrolador serão enviados para o Matlab/Simulink
+
+* Dados enviados para serial 
+
+<a href="https://imgur.com/gps1j1M"><img src="https://i.imgur.com/gps1j1M.png" title="source: imgur.com" /></a>
+
+ Esse programa faz a contagem dos pulsos de um encoder acoplado a um motor 
  
  # Criando uma interface no Simulink-Matlab
  
@@ -100,12 +105,27 @@ int main()
   
   
   
-  ##  Criando um Dashboard
+  #  Utilizando um Dashboard
  
- Configurado o bloco Query agora precisamos exibir os dados vindo da serial do microcontrolador, o bloco utilizado é um **Display**
+ *  Configurado o bloco Query agora precisamos exibir os dados vindo da serial do microcontrolador, o bloco utilizado é um **Display**
 
   <a href="https://imgur.com/3TbdNTd"><img src="https://i.imgur.com/3TbdNTd.png" title="source: imgur.com" /></a>
+  
+  * Para esse exemplo vamos configurar nosso display para o formato Short
    
+   <a href="https://imgur.com/nch1MCq"><img src="https://i.imgur.com/nch1MCq.png" title="source: imgur.com" /></a>
+  
+  * Em **Library Browser** podemos encontrar alguns Dashboard para usar em nossa interface
+
+<a href="https://imgur.com/vDmaAD4"><img src="https://i.imgur.com/vDmaAD4.png" title="source: imgur.com" /></a>
+
+
+
+
+
+
+
+
   
   
  
