@@ -87,7 +87,7 @@ int main()
 <a href="https://imgur.com/HiIuWom"><img src="https://i.imgur.com/HiIuWom.png" title="source: imgur.com" /></a>
 
 * Clicando sobre o bloco query teremos acesso as configurações 
-* 
+
  Nessa tela  podemos configurar tipo de interface, baudrate, buffer etc.
  
 <a href="https://imgur.com/bYz8JX0"><img src="https://i.imgur.com/bYz8JX0.png" title="source: imgur.com" /></a>
@@ -97,6 +97,15 @@ int main()
 <a href="https://imgur.com/mFqQ571"><img src="https://i.imgur.com/mFqQ571.png" title="source: imgur.com" /></a>
 
   Nesse exemplo iremos enviar dados no formato int e apenas um frame
+  
+  
+  
+  ##  Criando um Dashboard
+ 
+ Configurado o bloco Query agora precisamos exibir os dados vindo da serial do microcontrolador, o bloco utilizado é um **Display**
+
+  <a href="https://imgur.com/3TbdNTd"><img src="https://i.imgur.com/3TbdNTd.png" title="source: imgur.com" /></a>
+   
   
   
  
