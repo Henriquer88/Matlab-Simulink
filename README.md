@@ -117,7 +117,30 @@ int main()
   
   * Em **Library Browser** podemos encontrar alguns Dashboard para usar em nossa interface
 
-<a href="https://imgur.com/vDmaAD4"><img src="https://i.imgur.com/vDmaAD4.png" title="source: imgur.com" /></a>
+  <a href="https://imgur.com/vDmaAD4"><img src="https://i.imgur.com/vDmaAD4.png" title="source: imgur.com" /></a>
+  
+  Para essa aplicação vamos usar o **Custon Gauge**
+  
+<a href="https://imgur.com/R0ymv8E"><img src="https://i.imgur.com/R0ymv8E.png" title="source: imgur.com" /></a>
+
+  Com esse modelo podemos configurar os ponteriros, colocar limites e mudadr as cores
+
+## Configuração do Gauge
+
+ Com o **Gauge inserido em nosso projeto, vamos mexer nas configurações
+ 
+ <a href="https://imgur.com/Lkb9prS"><img src="https://i.imgur.com/Lkb9prS.png" title="source: imgur.com" /></a>
+ 
+  * Clicando duas vezes sobre o **Gauge** será aberto uma janela com os parametros bloco **Block Parametrs Custom Gauge**
+
+<a href="https://imgur.com/syd5PFX"><img src="https://i.imgur.com/syd5PFX.png" title="source: imgur.com" /></a>
+
+Primeira coisa  que vamos fazer será selecionar o sinal que vamos monitorar, clicando com o botão do mouse sobre a conecxão entro o bloco **Query** e o **Display**   
+ 
+ 
+
+
+
 
 
 
