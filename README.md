@@ -151,11 +151,13 @@ Assim como o bloco **Gauge** temos que fazer a configuração  **DashBoard Scope
 
 <a href="https://imgur.com/PwSZHVS"><img src="https://i.imgur.com/PwSZHVS.png" title="source: imgur.com" /></a>
 
-* Antes de fazer rodar a simulação devemos ir em **Stop Time** e digitar **inf** , pois queremos fazer a aquisição dos dados em tempo real  
+* Antes de rodar a simulação devemos ir em **Stop Time** e digitar **inf** , pois queremos fazer a aquisição dos dados em tempo real  
 
 <a href="https://imgur.com/q7MjbdF"><img src="https://i.imgur.com/q7MjbdF.png" title="source: imgur.com" /></a>
 
 Pronto, agora vamos  capturar os dados do microcontrolador.
+
+
 
 
 
