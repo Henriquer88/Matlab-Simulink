@@ -127,7 +127,7 @@ int main()
 
 ## Configuração do Gauge
 
- Com o **Gauge inserido em nosso projeto, vamos mexer nas configurações
+ Com o **Gauge** inserido em nosso projeto, vamos mexer nas configurações
  
  <a href="https://imgur.com/Lkb9prS"><img src="https://i.imgur.com/Lkb9prS.png" title="source: imgur.com" /></a>
  
@@ -142,6 +142,27 @@ int main()
 * Nessa janela podemos limitar o valor do ponteiro do **Gauge** e adicionar uma escala de cores.
 
 <a href="https://imgur.com/knaajKu"><img src="https://i.imgur.com/knaajKu.png" title="source: imgur.com" /></a>
+
+* Podemos também adicionar uma área onde iremos plotar os dados do microcontrolador, para esse exemplo foi usado o bloco **Dashboard Scope**
+
+<a href="https://imgur.com/svgcevm"><img src="https://i.imgur.com/svgcevm.png" title="source: imgur.com" /></a>
+
+Assim como o bloco **Gauge** temos que fazer a configuração  **DashBoard Scope**
+
+<a href="https://imgur.com/PwSZHVS"><img src="https://i.imgur.com/PwSZHVS.png" title="source: imgur.com" /></a>
+
+* Antes de fazer rodar a simulação devemos ir em **Stop Time** e digitar **inf** , pois queremos fazer a aquisição dos dados em tempo real  
+
+<a href="https://imgur.com/q7MjbdF"><img src="https://i.imgur.com/q7MjbdF.png" title="source: imgur.com" /></a>
+
+Pronto, agora vamos  capturar os dados do microcontrolador.
+
+
+
+
+
+
+
 
 
 
