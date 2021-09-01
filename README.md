@@ -87,7 +87,7 @@ int main()
  
  ## Configurando o bloco Query
 
-* Com o query já inserido no projeto, vamos agora fazer as configurações necessárias  
+* Com o query já inserido no projeto, vamos agora fazer às configurações necessárias  
 
 <a href="https://imgur.com/HiIuWom"><img src="https://i.imgur.com/HiIuWom.png" title="source: imgur.com" /></a>
 
