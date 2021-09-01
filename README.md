@@ -131,11 +131,24 @@ int main()
  
  <a href="https://imgur.com/Lkb9prS"><img src="https://i.imgur.com/Lkb9prS.png" title="source: imgur.com" /></a>
  
-  * Clicando duas vezes sobre o **Gauge** será aberto uma janela com os parametros bloco **Block Parametrs Custom Gauge**
+  * Clicando duas vezes sobre o **Gauge** será aberto uma janela com os parâmetros bloco **Block Parametrs Custom Gauge**
 
 <a href="https://imgur.com/syd5PFX"><img src="https://i.imgur.com/syd5PFX.png" title="source: imgur.com" /></a>
 
-Primeira coisa  que vamos fazer será selecionar o sinal que vamos monitorar, clicando com o botão do mouse sobre a conecxão entro o bloco **Query** e o **Display**   
+* Primeira coisa  que vamos fazer será selecionar o sinal que vamos monitorar, clicando com o botão do mouse sobre a conecxão entro o bloco **Query** e o **Display** feito isso agora basta clicar em **CONNECT**  
+
+<a href="https://imgur.com/nroda6O"><img src="https://i.imgur.com/nroda6O.png" title="source: imgur.com" /></a>
+
+* Nessa janela podemos limitar o valor do ponteiro do **Gauge** e adicionar uma escala de cores.
+
+<a href="https://imgur.com/knaajKu"><img src="https://i.imgur.com/knaajKu.png" title="source: imgur.com" /></a>
+
+
+
+
+
+
+
  
  
 
