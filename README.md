@@ -158,6 +158,7 @@ Assim como o bloco **Gauge** temos que fazer a configuração  **DashBoard Scope
 Pronto, agora vamos  capturar os dados do microcontrolador.
 
 
+<iframe class="imgur-embed" width="100%" height="480" frameborder="0" src="https://i.imgur.com/XeH8opu.gifv#embed"></iframe>
 
 
 
