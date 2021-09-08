@@ -8,7 +8,7 @@ Tutorial de como criar uma interface gráfica no ambiente Matlab/Simulink
 * Mbed 
 
 # Introdução 
-Nesse tutorial iremos mostrar como fazer a comunicação entre hardware e Simulink. Para esse exemplo vamos  utilizar a placa F401 para enviar pela serial os dados de um encoder. 
+Nesse tutorial iremos mostrar como fazer uma interface gráfica entre hardware e Simulink. Para esse exemplo vamos  utilizar a placa F401 para ler os pulsos do encoder e fazer a transmissão pela serial.
 
 # Instalação de Toolbox
 
