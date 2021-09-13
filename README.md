@@ -2,13 +2,13 @@
 # Objetivo
 Tutorial de como criar uma interface gráfica no ambiente Matlab/Simulink
 
-# Softwares e Hardwares  necessários 
+# Softwares e hardwares necessários 
 * Matlab - Versão 2017 
 * Nucleo Stm32 F401
 * Mbed 
 
 # Introdução 
-Nesse tutorial iremos mostrar como fazer uma interface gráfica entre hardware e Simulink. Para esse exemplo vamos  utilizar a placa F401 para ler os pulsos do encoder e fazer a transmissão pela serial.
+Nesse tutorial iremos mostrar como fazer uma interface gráfica entre hardware e simulink. Para esse exemplo vamos  utilizar a placa F401 para ler os pulsos do encoder e fazer a transmissão pela serial.
 
 # Instalação de Toolbox
 
@@ -16,7 +16,7 @@ Nesse tutorial iremos mostrar como fazer uma interface gráfica entre hardware e
  
 <a href="https://imgur.com/8vvmKyQ"> <img src="https://i.imgur.com/8vvmKyQ.png" title="source: imgur.com" /></a>
 
-Com o **Instrument Control Toolbox, você pode gerar dados no MATLAB para enviar a um instrumento ou ler dados no MATLAB para análise e visualização. Você pode automatizar testes, verificar projetos de hardware. O Toolbox fornece suporte integrado para protocolos seriais TCP / IP, UDP, I2C, SPI e Bluetooth.
+Com o **Instrument Control Toolbox**, você pode gerar dados no MATLAB para enviar a um instrumento ou ler dados no MATLAB para análise e visualização. Você pode automatizar testes, verificar projetos de hardware. O Toolbox fornece suporte integrado para protocolos seriais TCP / IP, UDP, I2C, SPI e Bluetooth.
 
 # Enviando dados pela serial 
 * Nesse exemplo iremos utilizar um códido em MBED para enviar dados da leitura de um encoder
@@ -66,9 +66,9 @@ int main()
  
  # Criando a estrutura para a interface gráfica 
  
- Primerio bloco que iremos incluir em nosso projeto é o **Query Instrument** ele de forma resumida é o responsável por fazer a conexção entre o Simulink e o microcontrolador 
+ Primeiro bloco que iremos incluir em nosso projeto é o **Query Instrument**. Ele, de forma resumida, é o responsável por fazer a conexão entre o Simulink e o microcontrolador 
  
-* Em  **Library Browser** temos acaesso  a todos os blocos de ferramentas que o Similunk disponibiliza 
+* Em  **Library Browser** temos acesso  a todos os blocos de ferramentas que o Similunk disponibiliza 
  
  <a href="https://imgur.com/UqNxRIB"><img src="https://i.imgur.com/UqNxRIB.png" title="source: imgur.com" /></a>
  
@@ -76,7 +76,7 @@ int main()
  
  <a href="https://imgur.com/s9JSBqC"><img src="https://i.imgur.com/s9JSBqC.png" title="source: imgur.com" /></a>
  
-* Nela vamos buscar pelo bloco **Query Instrument**
+* Nela, vamos buscar pelo bloco **Query Instrument**
  
  <a href="https://imgur.com/EebjXwN"><img src="https://i.imgur.com/EebjXwN.png" title="source: imgur.com" /></a>
  
@@ -87,11 +87,11 @@ int main()
  
  ## Configurando o bloco Query
 
-* Com o query já inserido no projeto, vamos agora fazer às configurações necessárias  
+* Com o query já inserido no projeto, vamos agora fazer as configurações necessárias  
 
 <a href="https://imgur.com/HiIuWom"><img src="https://i.imgur.com/HiIuWom.png" title="source: imgur.com" /></a>
 
-* Clicando sobre o bloco query teremos acesso as configurações 
+* Clicando sobre o bloco query teremos acesso às configurações 
 
  Nessa tela  podemos configurar tipo de interface, baudrate, buffer etc.
  
@@ -107,7 +107,7 @@ int main()
   
   #  Utilizando um Dashboard
  
- *  Configurado o bloco Query agora precisamos exibir os dados vindo da serial do microcontrolador, o bloco utilizado é um **Display**
+ *  Configurado o bloco Query, agora precisamos exibir dados vindo da serial do microcontrolador o bloco utilizado é um **Display**
 
   <a href="https://imgur.com/3TbdNTd"><img src="https://i.imgur.com/3TbdNTd.png" title="source: imgur.com" /></a>
   
@@ -135,7 +135,7 @@ int main()
 
 <a href="https://imgur.com/syd5PFX"><img src="https://i.imgur.com/syd5PFX.png" title="source: imgur.com" /></a>
 
-* Primeira coisa  que vamos fazer será selecionar o sinal que vamos monitorar, clicando com o botão do mouse sobre a conecxão entro o bloco **Query** e o **Display** feito isso agora basta clicar em **CONNECT**  
+* Primeiramente vamos selecionar o sinal que vamos monitorar, clicando com o botão do mouse sobre a conexão entro o bloco **Query** e o **Display** feito isso agora basta clicar em **CONNECT**  
 
 <a href="https://imgur.com/nroda6O"><img src="https://i.imgur.com/nroda6O.png" title="source: imgur.com" /></a>
 
